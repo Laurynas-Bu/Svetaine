@@ -1,35 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
 * {
     padding: 0;
     margin: 0;
 }
-body {
+html, body {
     font-family: 'Roboto', sans-serif;
     width: 100%;
     height: 100%;
+    box-sizing: border-box;
+    color: #262223;
 
 }
-/* headeris */
+/* Headeris-Pradzia */
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
 .top {
-    width: auto;
-    height: 80px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 0 1pt 0 rgba(0,0,0,0.2), 0 1pt 5pt 0 rgba(0,0,0,0.19);
     position: relative;
+    box-shadow: 0 0 1pt 0 rgba(0,0,0,0.2), 0 1pt 5pt 0 rgba(0,0,0,0.19);
 
 }
 #logo {
-    position: relative;
-    left: 20%;
-    float: left;
 
+    float: left;
+    position: relative;
 }
+/* Headeris-Navigacija*/
+
 .navigacija {
-    float: right;
-    right: 20%;
-    position: absolute;
+    float:right;
+    line-height: 90px;
+
 }
 
 .navigacija ul {
@@ -39,7 +42,7 @@ body {
 .navigacija li {
     display: inline;
  }
-.clear {
+div.clear {
     clear: both;
 
 }
@@ -51,7 +54,6 @@ body {
     text-decoration: none;
     font-size: 11.5pt;
     cursor: pointer;
-
 }
 
 .mygtukas1{
@@ -76,10 +78,31 @@ body {
     border-color: #7ebd0e;
     transition-duration: 0.2s
 }
+/* Pirma sekcija-Pradzia  */
+
 .kava {
     height: 500px;
-    width: auto;
     background-color: #7ee174;
+}
+
+.didelis-tekstas {
+    padding: 80px 0 0 0;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
 
 }
 
+.mazas-tekstas {
+    text-align: center;
+    padding: 20px;
+    margin: auto 250px;
+    font-size: 11pt;
+
+}
+
+.mazas-tekstas img {
+    width: 300px;
+    height: 180px;
+    padding: 20px 0;
+}
