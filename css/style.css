@@ -23,7 +23,6 @@ html, body {
 
 }
 #logo {
-
     float: left;
     position: relative;
 }
@@ -81,28 +80,134 @@ div.clear {
 /* Pirma sekcija-Pradzia  */
 
 .kava {
-    height: 500px;
-    background-color: #7ee174;
+    height: 760px;
+    background-color: #64c864;
+    text-align: center;
 }
 
 .didelis-tekstas {
     padding: 80px 0 0 0;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: normal;
     text-align: center;
 
 }
 
-.mazas-tekstas {
+.mazas-tekstas-juodas {
     text-align: center;
-    padding: 20px;
+    padding: 15px 0 0 0;
     margin: auto 250px;
     font-size: 11pt;
 
 }
 
-.mazas-tekstas img {
-    width: 300px;
-    height: 180px;
-    padding: 20px 0;
+.mazas-tekstas-juodas img {
+    width: 600px;
+    height: 360px;
+    padding: 30px 0 60px 0;
 }
+/* Pirma sekcija-forma  */
+
+.mygtukas3 {
+
+}
+input[type=email] {
+    width: 200px;
+    padding: 12px 20px;
+    border: 2px solid #2c6d3e;
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+    outline: 0;
+
+}
+
+input[type="submit"] {
+    width:auto;
+    padding: 12px 16px;
+    border: 2px solid #2c6d3e;
+    position: relative;
+    text-align: left;
+    border-radius: 0 20px 20px 0;
+    background-color: #2c6d3e;
+    color: white;
+    left: -4px;
+    outline: 0;
+}
+::placeholder {
+    color: #cfcfcf;
+}
+
+input[type=submit]:hover {
+    background-color: #37894f;
+    border-color: #37894f;
+    cursor: pointer;
+    transition-duration: 0.2s
+
+}
+
+.mazas-tekstas-baltas {
+    color: white;
+    text-align: center;
+    padding: 15px 0 0 0;
+    margin: auto 250px;
+    font-size: 11pt;
+}
+/* Antra sekcija-Pradzia */
+
+.community {
+    background: #f4f4f4;
+    height: 600px;
+}
+
+.box {
+    width: 520px;
+    height: 230px;
+    background: white;
+    margin: 50px auto;
+    box-shadow: 0 0 5pt 0 rgba(0,0,0,0.1), 0 1pt 5pt 0 rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    padding: 25px 40px 40px 40px;
+    text-align:center;
+}
+.lentele {
+    padding-left: 7px;
+    display: inline-block;
+}
+.pav2 ul {
+    list-style-type: none;
+    padding: 0 0 5px 0;
+}
+.pav2 img {
+    width: 25px;
+    height: 22px;
+    filter: opacity(.2) drop-shadow(0 0 0 #ffffff);position: relative
+}
+
+.pav1 {
+    width: 80px;
+    height: 80px;
+    filter: opacity(.45) drop-shadow(0 0 0 #26d875) saturate(6);
+    position: relative;
+    top: -6px;
+    padding-right: 7px;
+}
+
+.Signup {
+    color: #7ee174;
+    font-size: 18pt;
+    padding: 10px 0 10px 0;
+    font-weight: lighter;
+}
+
+.lentele ul {
+    list-style-type: none;
+    font-size: 11pt;
+    text-align: left;
+}
+
+.lentele li p {
+    font-size: 11.5pt ;
+    padding: 6px 0 0 0;
+
+}
+
